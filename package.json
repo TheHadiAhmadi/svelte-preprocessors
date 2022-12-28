@@ -1,0 +1,19 @@
+{
+  "name": "@ubeac/svelte-preprocessors",
+  "main": "./src/index.js",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "magic-string": "^0.27.0",
+    "svelte": "^3.55.0"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./if": "./src/if.js",
+    "./preview": "./src/preview.js"
+  }
+}
